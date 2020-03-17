@@ -1,13 +1,19 @@
 import React from 'react'
 import Navbar from './components/Navbar.js'
+import Form from './components/Form.js'
 import './App.css'
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="something">Hello World!</h1>
-      <button className="btn btn-primary">Click Me</button>
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Form />
+      <Form />
+      <Form />
     </div>
   )
 }
