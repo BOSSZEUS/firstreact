@@ -1,20 +1,16 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Form from './components/Form'
+// import Navbar from './components/Navbar'
+// import Form from './components/Form'
+import Header from './components/Header'
 import './App.css'
+
+let name = 'John Doe'
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Navbar />
-      <Navbar />
-      <Navbar />
-      <Navbar />
-      <Form />
-      <Form />
-      <Form />
-    </div>
+    <>
+      <Header person={name} />
+    </>
   )
 }
 
